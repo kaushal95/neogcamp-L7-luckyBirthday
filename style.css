@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: palegreen;
+    text-align: center;
+    color: blueviolet;
+}
+h2{
+    margin: 2rem auto;
+}
+label,input{
+    display: block;
+    margin: 0 auto;
+}
+label{
+    margin-bottom: 0.2rem;
+}
+input{
+    width: 30vw;
+    margin-bottom: 2rem;
+}
+/* label{
+    padding: 1rem;
+} */
+
+.btn{
+    background-color: transparent;
+    border: 0.1rem solid blueviolet;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    color: blueviolet;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: lightgreen;
+    transform: scale(1.2);
+}
+.output{
+    font-size: 1.5rem;
+}
+.celebrate {
+    animation: mymove 5s linear infinite;
+}
+@keyframes mymove {
+    0% {
+        font-size: 0px;
+    }
+
+    25% {
+        font-size: 0.7rem;
+    }
+
+    50% {
+        font-size: 1.3rem;
+    }
+
+    75% {
+        font-size: 0.8rem;
+    }
+
+    100% {
+        font-size: 0.5rem;
+    }
+}
+
+footer {
+    margin: 0 auto;
+    background-color: blueviolet;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    /* color: black; */
+    padding: 1rem;
+    position: fixed;
+    bottom: 0px;
+    left:50%;
+    transform: translate(-50%);
+
+}
+
+footer .link-list {
+    text-align: center;
+    margin: 1rem 0;
+    list-style-type: none;
+    margin: 1rem auto;
+}
+
+footer .link-list li {
+    display: inline;
+    padding: 1rem;
+}
+
+footer .footer-text {
+    /* font-weight: bold; */
+    font-size: large;
+}
+
+footer li a i {
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer li a i:hover {
+    transform: scale(1.5);
+}
